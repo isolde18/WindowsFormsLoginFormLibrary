@@ -1,0 +1,13 @@
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\bin\Debug\WindowsFormsLoginForm.exe.config
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\bin\Debug\WindowsFormsLoginForm.exe
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\bin\Debug\WindowsFormsLoginForm.pdb
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\obj\Debug\WindowsFormsLoginForm.csprojAssemblyReference.cache
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\obj\Debug\WindowsFormsLoginForm.Form1.resources
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\obj\Debug\WindowsFormsLoginForm.Properties.Resources.resources
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\obj\Debug\WindowsFormsLoginForm.csproj.GenerateResource.cache
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\obj\Debug\WindowsFormsLoginForm.csproj.CoreCompileInputs.cache
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\obj\Debug\WindowsFormsLoginForm.exe
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\obj\Debug\WindowsFormsLoginForm.pdb
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\bin\Debug\Data.mdf
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\bin\Debug\Data_log.ldf
+C:\Users\FTCC\source\repos\WindowsFormsLoginForm\WindowsFormsLoginForm\obj\Debug\WindowsFormsLoginForm.Form3.resources
