@@ -54,13 +54,15 @@ namespace WindowsFormsLoginForm
             this.tableTableAdapter = new WindowsFormsLoginForm.DataDataSet4TableAdapters.TableTableAdapter();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataDataSet5 = new WindowsFormsLoginForm.DataDataSet5();
-            this.personBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.personTableAdapter1 = new WindowsFormsLoginForm.DataDataSet5TableAdapters.PersonTableAdapter();
             this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.userIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.personBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.dataDataSet5 = new WindowsFormsLoginForm.DataDataSet5();
+            this.personTableAdapter1 = new WindowsFormsLoginForm.DataDataSet5TableAdapters.PersonTableAdapter();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.addressBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataDataSet2)).BeginInit();
@@ -70,8 +72,8 @@ namespace WindowsFormsLoginForm
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataDataSet4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet5)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -226,20 +228,6 @@ namespace WindowsFormsLoginForm
             resources.ApplyResources(this.dataGridView2, "dataGridView2");
             this.dataGridView2.Name = "dataGridView2";
             // 
-            // dataDataSet5
-            // 
-            this.dataDataSet5.DataSetName = "DataDataSet5";
-            this.dataDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // personBindingSource1
-            // 
-            this.personBindingSource1.DataMember = "Person";
-            this.personBindingSource1.DataSource = this.dataDataSet5;
-            // 
-            // personTableAdapter1
-            // 
-            this.personTableAdapter1.ClearBeforeFill = true;
-            // 
             // idDataGridViewTextBoxColumn1
             // 
             this.idDataGridViewTextBoxColumn1.DataPropertyName = "Id";
@@ -265,10 +253,40 @@ namespace WindowsFormsLoginForm
             resources.ApplyResources(this.userIDDataGridViewTextBoxColumn, "userIDDataGridViewTextBoxColumn");
             this.userIDDataGridViewTextBoxColumn.Name = "userIDDataGridViewTextBoxColumn";
             // 
+            // personBindingSource1
+            // 
+            this.personBindingSource1.DataMember = "Person";
+            this.personBindingSource1.DataSource = this.dataDataSet5;
+            // 
+            // dataDataSet5
+            // 
+            this.dataDataSet5.DataSetName = "DataDataSet5";
+            this.dataDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // personTableAdapter1
+            // 
+            this.personTableAdapter1.ClearBeforeFill = true;
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form3
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView3);
@@ -284,8 +302,8 @@ namespace WindowsFormsLoginForm
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataDataSet4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -322,5 +340,7 @@ namespace WindowsFormsLoginForm
         private System.Windows.Forms.DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn lastNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn userIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

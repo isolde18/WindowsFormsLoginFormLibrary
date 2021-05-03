@@ -24,7 +24,7 @@ namespace WindowsFormsLoginForm
             pass = textBox2.Text;
             if (user == "Admin"&& pass == "Admin")
             {
-                MessageBox.Show("You are logged in");
+                MessageBox.Show("You are logged in\nClick OK");
                 this.Hide();
                 Form3 f2 = new Form3();
                 f2.Show();

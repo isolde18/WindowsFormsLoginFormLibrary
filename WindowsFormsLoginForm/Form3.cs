@@ -100,5 +100,19 @@ namespace WindowsFormsLoginForm
             }
         
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string box_msg = "Check Out Yes / No Options";
+
+            string box_title = "Yes No Dialog";
+
+            MessageBox.Show(box_msg, box_title, MessageBoxButtons.YesNo);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
