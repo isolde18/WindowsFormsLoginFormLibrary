@@ -57,7 +57,6 @@ namespace WindowsFormsLoginForm
             photoList.Images.Add(Image.FromFile(@"C:\Users\FTCC\Desktop\My Folder\books images\HeroOfOurTime.jpg"));
             photoList.Images.Add(Image.FromFile(@"C:\Users\FTCC\Desktop\My Folder\books images\anna-karenina.jpg"));
             photoList.Images.Add(Image.FromFile(@"C:\Users\FTCC\Desktop\My Folder\books images\FathersAndsons.jpg"));
-            photoList.Images.Add(Image.FromFile(@"C:\Users\FTCC\Desktop\My Folder\books images\mastermargarita.jpg"));
             photoList.Images.Add(Image.FromFile(@"C:\Users\FTCC\Desktop\My Folder\books images\WarAndPeace.jpg"));
             photoList.Images.Add(Image.FromFile(@"C:\Users\FTCC\Desktop\My Folder\books images\brotherKaramazovs.jpg"));
             photoList.Images.Add(Image.FromFile(@"C:\Users\FTCC\Desktop\My Folder\books images\TheIdiot.jpg"));
